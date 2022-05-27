@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Marvel Game</title>
+
+    
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/variaveis.css" />
+    <link rel="stylesheet" href="./src/css/fontes.css" />
+    <link rel="stylesheet" href="./src/css/animacoes.css" />
+    <link rel="stylesheet" href="./src/css/responsivo.css" />
+  </head>
+  <body>
+    <!-- inicio do container main principal onde todos os elementos estão 
+    agrupados -->
+    <main>
+      <!-- cabeçalho -->
+      <header class="cabecalho">
+        <h1 class="titulo">Character Select</h1>
+      </header>
+      <!-- fim do cabeçalho -->
+
+      <!-- container onde todos os itens estão agrupados -->
+      <div class="selecaoDePersonagem">
+        <!-- personagem grande player 1  e personagem selecionado grande-->
+        <div class="personagemJogador1 personagemGrande">
+          <!-- imagem grande do jogador selecionado -->
+          <img
+            src="./src/img/thor.png"
+            alt="personagem selecionado jogador 1"
+            id="personagemJogador1"
+          />
+          <!-- fim da imagem grande -->
+
+          <!-- container com o nome do personagem selecionado em baixo -->
+          <div class="nome">
+            <h3>Thor</h3>
+          </div>
+        </div>
+        <!-- fim da classe personagemJogador1 e personagemGrande -->
+
+        <!-- inicio do container com  a lista de personagem a ser escolhido no centro -->
+        <ul class="listaDePersonagem">
+          <!-- classe  personagem e personagem selecionado -->
+          <li class="personagem selecionado" id="thor" data-name="Thor">
+            <!-- classe tag com o player 1 ou 2 -->
+            <span class="tag">1P</span>
+            <img src="./src/img/thor.jpg" alt="Personagem Thor" />
+          </li>
+
+          <li class="personagem" id="homem-de-ferro" data-name="Homem de Ferro">
+            <span class="tag">1P</span>
+            <img
+              src="./src/img/homem-de-ferro.jpg"
+              alt="Personagem Homem de Ferro"
+            />
+          </li>
+
+          <li class="personagem" id="viuva-negra" data-name="Viúva Negra">
+            <span class="tag">1P</span>
+            <img src="./src/img/viuva-negra.jpg" alt="Personagem Viúva Negra" />
+          </li>
+
+          <li class="personagem" id="hulk" data-name="Hulk">
+            <span class="tag">1P</span>
+            <img src="./src/img/hulk.jpg" alt="Personagem Hulk" />
+          </li>
+
+          <li
+            class="personagem"
+            id="capitao-america"
+            data-name="Capitão America"
+          >
+            <span class="tag">1P</span>
+            <img
+              src="./src/img/capitao-america.jpg"
+              alt="Personagem Capitão America"
+            />
+          </li>
+
+          <!-- classe com o joagador 2 selecionado ao qual fica sempre selecionado -->
+          <li
+            class="personagem jogador2selecionado"
+            id="ultron"
+            data-name="Ultron"
+          >
+            <span class="tag">2P</span>
+            <img src="./src/img/ultron.jpg" alt="Personagem Ultron" />
+          </li>
+          <!-- fim da classe do jogador 2 selecionado-->
+
+          <li class="personagem" id="doutor-doom" data-name="Doutor Doom">
+            <span class="tag">1P</span>
+            <img src="./src/img/doutor-doom.jpg" alt="Personagem Doutor Doom" />
+          </li>
+
+          <li class="personagem" id="nova" data-name="Nova">
+            <span class="tag">1P</span>
+            <img src="./src/img/nova.jpg" alt="Personagem Nova" />
+          </li>
+
+          <li class="personagem" id="fenix" data-name="Fênix">
+            <span class="tag">1P</span>
+            <img src="./src/img/fenix.jpg" alt="Personagem Fenix" />
+          </li>
+        </ul>
+        <!-- fim da lista de jogadores -->
+
+        <!-- classe como o personagem2 grande-->
+        <div class="personagemJogador2 personagemGrande">
+          <!-- imagem de ultron, jogador grande selecionado -->
+          <img
+            src="./src/img/ultron.png"
+            alt="personage selecionado jogador 2"
+            id="personagemJogador2"
+          />
+
+          <!-- nome de ultron da classe nome -->
+          <div class="nome">
+            <h3>Ultron</h3>
+          </div>
+
+          <!-- fim da classse de ultron, personagemJogador2 e personagemGrande-->
+        </div>
+
+        <!-- fim da classe selecaoDePersonagem -->
+      </div>
+
+      <!-- fim da main -->
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

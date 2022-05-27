@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "fontTitulo";
+  src: url("../fontes/SSF4_ABUKET.woff");
+}
+
+@font-face {
+  font-family: "fontSelecao";
+  src: url("../fontes/PILOT_COMMAND.otf");
+}
